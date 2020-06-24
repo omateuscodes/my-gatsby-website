@@ -7,13 +7,13 @@ export default function Header() {
     <header className={HeaderStyles.header}>
       <ul>
         <li>
-          <Link className={HeaderStyles.link} to="/">Inicio</Link>
+          <Link className={HeaderStyles.link} activeClassName={HeaderStyles.active} to="/">Inicio</Link>
         </li>
         <li>
-          <Link className={HeaderStyles.link} to="/about">Sobre</Link>
+          <Link className={HeaderStyles.link} activeClassName={HeaderStyles.active} to="/about">Sobre</Link>
         </li>
         <li>
-          <Link className={HeaderStyles.link} to="/contact">Contato</Link>
+          <Link className={HeaderStyles.link} activeClassName={HeaderStyles.active} to="/contact">Contato</Link>
         </li>
       </ul>
     </header>

@@ -22,6 +22,10 @@
     font-weight: bold;
 }
 
+.active{
+    border-bottom: 2px solid black;
+}
+
 .link:hover{
     opacity: 0.5;
 }
