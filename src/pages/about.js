@@ -18,7 +18,7 @@ export default function About() {
           >Engenharia de Controle e Automação,</a>o que me torna capacitado para atuar em diversas
            áreas, tais como: mecânica, elétrica, eletrônica, automação, robótica, redes de
             computadores, instrumentação, e etc. Além disso sou autodidata e proficiente no
-            desenvolvimento de aplicações web e mobile utilizando HTML, CSS, SCSS, Javascript,
+            desenvolvimento de aplicações web e mobile utilizando Javascript,
             ReactJS, React Native, Firebase e Java.
         </p>
         <h2>
