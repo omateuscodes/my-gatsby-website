@@ -24,14 +24,12 @@ export default class MyForm extends React.Component {
           >
             <div className={MyFormStyles.group}>
               <input type="email" required name="email" aria-label="email"/>
-              <span className={MyFormStyles.highlight}></span>
               <span className={MyFormStyles.bar}></span>
               <label >Email</label>
             </div>
 
             <div className={MyFormStyles.group}>
               <input type="text" required name="message" />
-              <span className={MyFormStyles.highlight}></span>
               <span className={MyFormStyles.bar}></span>
               <label>Mensagem</label>
             </div>
