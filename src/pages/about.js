@@ -1,11 +1,15 @@
 import React from "react"
 import Layout from "../components/Layout"
 import AboutStyles from '../styles/About.module.scss'
+import { Helmet } from "react-helmet";
 
 export default function About() {
   return (
     <Layout>
       <div className={AboutStyles.content}>
+      <Helmet>
+                <title>Sobre | Mateus S. Souza</title>
+            </Helmet>
         <h2>
           Sobre mim
         </h2>
