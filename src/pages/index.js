@@ -8,9 +8,9 @@ export default function Home() {
   return (
     <Layout>
       <div>
-      <Helmet>
-                <title>Início | Mateus S. Souza</title>
-            </Helmet>
+        <Helmet>
+          <title>Início | Mateus S. Souza</title>
+        </Helmet>
         <div className={HomeStyles.image}>
           <img src={profileImg} alt="Mateus S. Souza" width="180" height="180" />
         </div>
